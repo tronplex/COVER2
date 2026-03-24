@@ -228,21 +228,3 @@ cve-report/
 ├── requirements.txt
 └── README.md
 ```
-
----
-
-## Roadmap
-
-- [ ] PowerShell port for enterprise/Windows environments with live API ingestion from Rapid7 InsightVM and Microsoft Defender for Endpoint
-- [ ] HTML report output option
-- [ ] CVSS vector string breakdown
-- [ ] CVE publish vs. last-modified date filtering options
-
----
-
-## References
-
-- [NVD API v2 Documentation](https://nvd.nist.gov/developers/vulnerabilities)
-- [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-- [CPE Dictionary Search](https://nvd.nist.gov/products/cpe/search)
-- [CVSS v3.1 Specification](https://www.first.org/cvss/v3.1/specification-document)
