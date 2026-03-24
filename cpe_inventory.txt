@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# cpe_inventory.txt — CPE Asset Inventory
+# ─────────────────────────────────────────────────────────────────────────────
+# One CPE string per line. Blank lines and lines beginning with '#' are ignored.
+#
+# CPE format: cpe:2.3:<part>:<vendor>:<product>:<version>:...
+#   <part>  — 'a' (application), 'o' (operating system), 'h' (hardware)
+#
+# NVD CPE search: https://nvd.nist.gov/products/cpe/search
+# NVD CPE syntax: https://nvd.nist.gov/products/cpe
+#
+# Replace or extend these entries with CPEs matching your actual environment.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Web / App Servers ─────────────────────────────────────────────────────────
+cpe:2.3:a:apache:log4j:2.14.1:*:*:*:*:*:*:*
+cpe:2.3:a:apache:http_server:2.4.49:*:*:*:*:*:*:*
+
+# ── Cryptography / TLS ───────────────────────────────────────────────────────
+cpe:2.3:a:openssl:openssl:1.1.1:*:*:*:*:*:*:*
+
+# ── Microsoft ────────────────────────────────────────────────────────────────
+cpe:2.3:a:microsoft:exchange_server:2019:-:*:*:*:*:*:*
+
+# ── Microsoft Operating Systems ─────────────────────────────────────────────
+cpe:2.3:o:microsoft:windows_10:*:*:*:*:*:*:*:*
+cpe:2.3:o:microsoft:windows_11:*:*:*:*:*:*:*:*
+cpe:2.3:o:microsoft:windows_server_2016:*:*:*:*:*:*:*:*
+cpe:2.3:o:microsoft:windows_server_2019:*:*:*:*:*:*:*:*
+cpe:2.3:o:microsoft:windows_server_2022:*:*:*:*:*:*:*:*
+
+# ── Web Browsers ────────────────────────────────────────────────────────────
+cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*
+cpe:2.3:a:microsoft:edge:*:*:*:*:*:*:*:*
+cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*
+
+# ── Java / Application Servers (additional) ─────────────────────────────────
+cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*
+cpe:2.3:a:apache:struts:*:*:*:*:*:*:*:*
+
+# ── Linux Distributions ─────────────────────────────────────────────────────
+cpe:2.3:o:redhat:enterprise_linux:*:*:*:*:*:*:*:*
+
+# ── VMware ───────────────────────────────────────────────────────────────────
+cpe:2.3:a:vmware:vcenter_server:6.7:*:*:*:*:*:*:*
