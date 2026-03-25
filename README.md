@@ -2,9 +2,9 @@
 
 CISA Observed Vulnerability Exploitation Report version 2
 
-This project is a tool written in python that maps your software inventory (via CPE strings) to CVE data from the [NVD API v2](https://nvd.nist.gov/developers/vulnerabilities), enriches findings with [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) data, and produces a report of **HIGH** and **CRITICAL** severity vulnerabilities impacting your environment.
+This project is a tool, written with the help of special robots, that maps your software inventory (via CPE strings) to CVE data from the [NVD API v2](https://nvd.nist.gov/developers/vulnerabilities), enriches findings with [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) data, and produces a report of **HIGH** and **CRITICAL** severity vulnerabilities impacting your environment.
 
-This is the second iteration of C.O.V.E.R. which adds the ability to read the CPE strings and query NVD and CISA KEV. The prior version of C.O.V.E.R. relied on a general software/vendor list. The accuracy of this data depended upon the accuracy of the supplied list. The intention of adding the CPE strinng functionality is that users could query existing tooling (vulnerability scanners or EDR) currently existing in their environments and get an accurate list stuff that may be in the shadows.
+This is the second iteration of C.O.V.E.R. which, thanks to my robot friend, adds the ability to read the CPE strings and query NVD and CISA KEV. The prior version of C.O.V.E.R. relied on a general software/vendor list. The accuracy of this data depended upon the accuracy of the supplied list. The intention of adding the CPE strinng functionality is that users could query existing tooling (vulnerability scanners or EDR) currently existing in their environments and get an accurate list stuff that may be in the shadows.
 
 The main goal of this tool is to help teams prioritize remediation and patching while also providing a quick way to obtain up-to-date vulnerability threat intelligence impacting their environments.
 
